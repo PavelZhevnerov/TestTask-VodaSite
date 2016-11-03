@@ -1,0 +1,85 @@
+/* font - Bebas Neue Regular */
+@font-face {
+	font-family:'Bebas Neue Regular';
+	src:url('../fonts/Bebas V1/Bebas V1.eot');
+	src: local('Bebas Neue Regular'), local('BebasNeue-Regular'),
+		url('../fonts/Bebas V1/Bebas V1.woff2') format('woff2'),
+		url('../fonts/Bebas V1/Bebas V1.woff') format('woff'),
+		url('../fonts/Bebas V1/Bebas V1.ttf') format('truetype'),
+		url("../fonts/Bebas V1/Bebas V1.svg#Bebas") format("svg");
+	font-weight: normal;
+  font-style: normal;
+}
+
+/* font - Bebas Neue Book */
+@font-face {
+	font-family:'Bebas Neue Book';
+	src: local('Bebas Neue Book'), local('BebasNeue-Book'),
+		url('../fonts/bebas-neue-book/BebasNeue Book.woff') format('woff'),
+		url('../fonts/bebas-neue-book/BebasNeue Book.ttf') format('truetype');
+	font-weight: normal;
+  font-style: normal;
+}
+
+/* font - Roboto Light */
+@font-face {
+  	font-family: 'Roboto Light';
+  	src: url('../fonts/Roboto Light V1/Roboto Light V1.eot');
+  	src: local('Roboto Light'), local('Roboto-Light'),
+       url('../fonts/Roboto Light V1/Roboto Light V1.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/Roboto Light V1/Roboto Light V1.woff2') format('woff2'),
+       url('../fonts/Roboto Light V1/Roboto Light V1.woff') format('woff'),
+       url('../fonts/Roboto Light V1/Roboto Light V1.ttf') format('truetype'),
+       url('../fonts/Roboto Light V1/Roboto Light V1.svg#Roboto') format('svg');
+  	font-weight: normal;
+    font-style: normal;
+}
+
+/* font - Roboto Regular */
+@font-face {
+    font-family: 'Roboto Regular';
+    src: url('../fonts/Roboto Regular V1/Roboto Regular V1.eot');
+    src: local('Roboto Regular'), local('Roboto-Regular'),
+       url('../fonts/Roboto Regular V1/Roboto Regular V1.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/Roboto Regular V1/Roboto Regular V1.woff2') format('woff2'),
+       url('../fonts/Roboto Regular V1/Roboto Regular V1.woff') format('woff'),
+       url('../fonts/Roboto Regular V1/Roboto Regular V1.ttf') format('truetype'),
+       url('../fonts/Roboto Regular V1/Roboto Regular V1.svg#Roboto') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* font - Roboto Medium */
+@font-face {
+  	font-family: 'Roboto Medium';
+  	src: url('../fonts/Roboto Medium V1/Roboto Medium V1.eot');
+  	src: local('Roboto Medium'), local('Roboto-Medium'),
+       url('../fonts/Roboto Medium V1/Roboto Medium V1.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/Roboto Medium V1/Roboto Medium V1.woff2') format('woff2'),
+       url('../fonts/Roboto Medium V1/Roboto Medium V1.woff') format('woff'),
+       url('../fonts/Roboto Medium V1/Roboto Medium V1.ttf') format('truetype'),
+       url('../fonts/Roboto Medium V1/Roboto Medium V1.svg#Roboto') format('svg');
+  	font-weight: normal;
+    font-style: normal;
+}
+
+.font__BebasNeueRegular{
+	font-family: 'Bebas Neue Regular', 'Bebas Neue', Arial, sans-serif;
+}
+
+.font__BebasNeueBook{
+	font-family: 'Bebas Neue Book', 'Bebas Neue', Arial, sans-serif;
+}
+
+.font__RobotoLight{
+	font-family: 'Roboto Light', 'Roboto', Arial, sans-serif;
+}
+
+.font__RobotoRegular{
+  font-family: 'Roboto Regular', 'Roboto', Arial, sans-serif;
+}
+
+.font__RobotoMedium{
+	font-family: 'Roboto Medium', 'Roboto', Arial, sans-serif;
+}
+
